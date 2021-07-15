@@ -7,6 +7,7 @@
 public class MessageDemo {
     private String message;
     public MessageDemo(String message){
+        System.out.println("123");
         this.message=message;
     }
     public String printMessage(){
